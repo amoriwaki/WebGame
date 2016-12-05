@@ -31,7 +31,6 @@ before_install:
     - echo `pwd`
     - printenv
     - cocos -v
-    - cd cocos2d
 
 script:
     - eslint 'src/*.js'

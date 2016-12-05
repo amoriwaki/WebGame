@@ -1,0 +1,14 @@
+{
+     "extends": ["eslint:recommended"],
+     "plugins": [],
+     "parserOptions": {},
+     "env": {"browser": true},
+     "globals": {
+         "cc": false,
+         "res": false
+     },
+     "rules": {     
+        "no-unused-vars": 0
+     }
+ }
+ 
